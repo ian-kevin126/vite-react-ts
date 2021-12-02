@@ -2,25 +2,6 @@
 
 一个使用`vite2.x`搭建的`react17.x`项目，支持`TypeScript4.x`、`Antd4.x`，以及`eslint`/`prettier`/`stylelint`/`commitlint`等工程化管理~
 
-## 开发
-
-- **使用 Gitpod 体验在线开发环境**
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/JS-banana/vite-react-ts/)
-
-- **克隆到本地**
-
-```sh
-# clone
-git clone https://github.com/JS-banana/vite-react-ts.git
-
-# install
-yarn install
-
-# dev serve
-yarn dev
-```
-
 ## 特性
 
 - 支持`Typescript`
@@ -73,16 +54,3 @@ yarn dev
 ├── tsconfig.json                       // typescript配置文件
 └── vite.config.ts                      // vite
 ```
-
-## 版本
-
-- v0.0.1：2021-07-23更新
-- v0.0.2：2021-08-12更新
-  - `.stylelint`配置调整，`pre-commit`调整为`.husky`及其他细节优化
-- v0.0.3：2021-08-15 至 2021-09-01
-  - 解决antd按需加载在开发环境下的自定义样式被覆盖问题
-  - 重构路由及layout模块，优化路由页面
-  - 增加mock请求数据，整理目录结构
-  - 分离vite plugin及其配置、环境变量，优化写法并全局统一管理
-  - 使用 react-route-config 统一管理路由
-  - 调整部分样式
